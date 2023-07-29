@@ -23,8 +23,8 @@ const Footer = () => {
           </p>
           <div className="flex justify-center gap-[32px] items-center">
             <Link target="_blank" to="https://www.facebook.com">
-              <span className="text-[33px] ">
-                <FaFacebookF />
+              <span className="text-[31px] ">
+                <FaFacebookF/>
               </span>
             </Link>
             <Link target="_blank" to="https://www.instagram.com">
