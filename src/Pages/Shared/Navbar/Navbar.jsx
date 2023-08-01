@@ -37,9 +37,9 @@ const Navbar = () => {
   );
   return (
     <header>
-      <nav className="navbar justify-between bg-[#15151580] text-white px-[36px] py-[15px]">
-        <div>
-          <div className="dropdown">
+      <nav className="navbar justify-between bg-[#15151580] text-white px-0 lg:px-[36px] py-[15px]">
+        <div className="flex flex-row-reverse justify-evenly  w-full lg:w-auto">
+          <div className="dropdown  dropdown-bottom dropdown-end">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#15151580] rounded-box w-52"
             >
               {navbarOptions}
             </ul>
@@ -75,7 +75,7 @@ const Navbar = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="hidden lg:block">
           <ul className="flex gap-4 px-1 text-[20px] font-normal uppercase">
             {navbarOptions}
           </ul>

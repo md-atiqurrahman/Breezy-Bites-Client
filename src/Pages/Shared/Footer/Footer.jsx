@@ -6,7 +6,7 @@ const Footer = () => {
   const year = today.getFullYear();
   return (
     <footer>
-      <div className="flex justify-center text-white text-center">
+      <div className="flex flex-col lg:flex-row justify-center text-white text-center">
         <div className="bg-[#1F2937] py-[97px] w-full">
           <h3 className="text-[32px] font-medium mb-[10px]">CONTACT US</h3>
           <div className="text-[20px] font-medium">
